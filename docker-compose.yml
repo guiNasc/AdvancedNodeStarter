@@ -1,0 +1,6 @@
+  redis-gui:
+    restart: always
+    image: redis
+    ports:
+      - 6363:6379
+
